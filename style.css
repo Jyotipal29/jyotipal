@@ -54,10 +54,12 @@ border: 1px solid #10B981;
 }
 .navigation .links{
     color:white;
+    
   
 }
 .navigation .links-active{
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .hero{
@@ -102,4 +104,7 @@ border: 1px solid #10B981;
 .footer .links{
     color: white;
 }
+https://i.etsystatic.com/22846591/d/il/0d1fc9/2351075738/il_340x270.2351075738_qyk2.jpg?version=0
+
+
 
