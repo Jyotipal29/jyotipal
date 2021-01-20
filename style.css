@@ -21,14 +21,14 @@ margin :auto;
     padding:0.5rem 0rem;
 }
 .primary-link{
-    background-color:#10B981;
+    background-color:#1D4ED8;
 border-radius: 0.5rem;
 color:white;
 }
 .secondary-link{
    
 border-radius: 0.5rem;
-border: 1px solid #10B981;
+border: 1px solid #1D4ED8;
 }
 .non-bulet{
     list-style: none;
@@ -38,7 +38,7 @@ border: 1px solid #10B981;
     padding:1rem 0.5rem;
 }
 .navigation{
-    background-color:#10B981 ;
+    background-color:#1D4ED8 ;
     color:white;
     padding: 1rem;
     border-bottom-left-radius:1rem ;
@@ -76,7 +76,7 @@ border: 1px solid #10B981;
     text-align: center;
 }
 .hero-heading .span{
-    color:#10B981;
+    color:#1D4ED8;
 }
 
 .section{
@@ -91,7 +91,7 @@ border: 1px solid #10B981;
     background-color:#E5E7EB ;
 }
 .footer{
-    background-color:#10B981 ;
+    background-color:#1D4ED8 ;
     padding:2rem 0rem;
     text-align: center;
     color: white;
