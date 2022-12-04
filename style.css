@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --color-black:#0f172a;
+    --color-blue:#2563eb;
+    --color-white:#fff;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
 hr{
     margin:2rem 0rem;
 }
-
+h3  {
+    color:#1D4ED8;
+}
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -33,6 +40,7 @@ border: 1px solid #1D4ED8;
 .non-bulet{
     list-style: none;
 }
+
 .list-item-inline{
     display:inline;
     padding:1rem 0.5rem;
@@ -62,18 +70,24 @@ border: 1px solid #1D4ED8;
     text-transform: uppercase;
 }
 
+
+
 .hero{
     padding:2rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
 }
 .hero .hero-image{
     max-width: 350px;
     display: block;
     margin:auto;
+    border-radius: 50%;
 }
 .hero .hero-heading{
     padding-top:1rem;
-    color: #4B5563;
-    text-align: center;
+    color:black;
+    text-align:left;
 }
 .hero-heading .span{
     color:#1D4ED8;
@@ -85,6 +99,10 @@ border: 1px solid #1D4ED8;
 .section h3{
     text-align: center;
 
+}
+.pro-img{
+    width:500px;
+    height: 300px;
 }
 
 .hw{
@@ -104,7 +122,7 @@ border: 1px solid #1D4ED8;
 .footer .links{
     color: white;
 }
-https://i.etsystatic.com/22846591/d/il/0d1fc9/2351075738/il_340x270.2351075738_qyk2.jpg?version=0
+/* https://i.etsystatic.com/22846591/d/il/0d1fc9/2351075738/il_340x270.2351075738_qyk2.jpg?version=0 */
 
 
 
