@@ -12,68 +12,127 @@
 
 <body>
 
-  <nav class="navigation container ">
-    <ul class="non-bulet nav-pills">
-      <li class="list-item-inline ">
-        <a class=" links links-active" href="index.html">home</a>
-      </li>
-      <li class="list-item-inline ">
-        <a class="links" href="projects.html">projects</a>
-      </li>
-      <li class="list-item-inline ">
-        <a class="links" href="blog.html">blog</a>
-      </li>
+  <div class="container">
 
-    </ul>
-  </nav>
-  <header class="hero">
-    <img class="hero-image" src="jyoti-image.jpg" />
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <!-- <li><a href="blog.html">Blog</a></li> -->
+      </ul>
+    </nav>
 
-    <section class="section ">
-      <div class="container container-center">
+    <!-- hero -->
+    <section>
+      <div class="hero">
+        <div class="hero-col-2">
+          <img class="hero-img" src="jyoti-image.jpg" />
 
-        <h1 class="hero-heading">Hello, <span class="span">i'm jyoti</span></h1>
-        <p><strong> a web developer skilled in JavaScript ReactJS and other MERN technologies. </strong></p>
-        <ul class=" non-bulet social-links">
+        </div>
+        <div class="hero-col-2">
+          <h1 class="hero-heading">Hello,i'm <span class="span"> Jyoti</span></h1>
 
-          <li class="list-item-inline">
-            <a class="links links-github" href="https://github.com/Jyotipal29"><i class="fa fa-github fa-2x"
-                aria-hidden="true"></i></a>
-          </li>
-          <li class="list-item-inline">
-            <a class="links" href="https://www.linkedin.com/in/jyoti-pal-aa22ba186"><i
-                class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-          </li>
-          <li class="list-item-inline">
-            <a class="links" href="https://twitter.com/jyotipa53057311"><i class="fa fa-twitter fa-2x"
-                aria-hidden="true"></i></a>
-          </li>
+          <p><strong> a web developer skilled in JavaScript ReactJS and other MERN technologies. </strong></p>
+          <ul class="social-links">
+            <li>
+              <a href="https://github.com/Jyotipal29"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jyoti-pal-aa22ba186"><i class="fa fa-linkedin-square fa-2x"
+                  aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/jyotipa53057311"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            </li>
 
-        </ul>
+          </ul>
+        </div>
+
       </div>
-  </header>
-  <section class="section">
-    <div class="container container-center">
-      <h3>Technologies</h3>
-      <p><strong>I'm familiar with HTML5, CSS3, JavaScript, NodeJS, ReactJS,ExpressJs ,mongoDb ,mongoose ,git and web
-          hosting</strong></p>
-    </div>
-  </section>
-  <section class="section ">
-    <div class="container container-center">
-      <h3>projects</h3>
-      <p><strong>I like to showcase my work and thus, you can see my projects hosted online</strong></p>
-      <a class="links primary-link" href="projects.html">see projects</a>
-    </div>
-  </section>
-  <section class="section ">
-    <div class="container container-center">
-      <h3>blog</h3>
-      <p><strong>I am also working on some technical and non techincal blogs. I like to document my journey of
-          learning.</strong></p>
-      <a class="links primary-link" href="blog.html">read blog</a>
-    </div>
-  </section>
+    </section>
+    <!-- skilss -->
+    <section>
+      <h2 class="heading">Technologies</h2>
+      <div class="tech-container">
+        <span class="skills">HTML5</span>
+        <span class="skills">CSS</span>
+        <span class="skills">JavaScript</span>
+        <span class="skills">ReactJS</span>
+        <span class="skills">nodeJS</span>
+        <span class="skills">ExpressJS</span>
+        <span class="skills">MongoDB</span>
+        <span class="skills">Mongoose</span>
+        <span class="skills">GIT</span>
+        <span class="skills">github</span>
+        <span class="skills">Web hosting</span>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section>
+      <h2 class="heading">Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+
+          <h4 class="pro-heading">ShopIt</h4>
+          <p class="project-desc">shopIt is an ecommerce app for fashion </p>
+          <p><strong>Tech Stack:</strong> React, Node, Express, MongoDB, mongoose</p>
+          <a class="links primary-link" href=" https://jyoti-travel.netlify.app/ ">Live Project</a>
+          <a class="links secondary-link" href=" https://github.com/Jyotipal29/Travel-App.git">View Source</a>
+        </div>
+        <div class="project-card">
+
+          <h4 class="pro-heading">NoteIt</h4>
+          <p class="project-desc">NoteIt is a notes taling app </p>
+          <p><strong>Tech Stack:</strong> React, Node, Express, MongoDB, mongoose</p>
+          <a class="links primary-link" href="https://jyoti-notes.netlify.app/  ">Live Project</a>
+          <a class="links secondary-link" href="https://github.com/Jyotipal29/NoteIT ">View Source</a>
+        </div>
+        <div class="project-card">
+
+          <h4 class="pro-heading">Fab-UI</h4>
+          <p class="project-desc">Fab-UI is a component library </p>
+          <p><strong>Tech Stack:</strong> React, Node, Express, MongoDB, mongoose</p>
+          <a class="links primary-link" href="https://jyoti-fab-ui.netlify.app/index.html ">Live Project</a>
+          <a class="links secondary-link" href="https://github.com/Jyotipal29/fab-ui ">View Source</a>
+        </div>
+
+      </div>
+      <a href="projects.html" class="all-pro-link">All Projects -></a>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
