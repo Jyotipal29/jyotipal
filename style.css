@@ -165,7 +165,7 @@ border: 1px solid var(--color-blue)
         align-items: center;
     }
     .navbar ul{
-        justify-content: flex-start;
+        margin-right:40px;
     }
     .container{
         padding:0;
